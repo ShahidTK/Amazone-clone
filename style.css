@@ -1,0 +1,399 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(219, 213, 213);
+}
+.main{
+    background: #ebf4f4;
+}
+/* navbar */
+.navbar{
+    background: #0f1111;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 100px;
+    height: 50px;
+}
+
+.logo{
+    width: 95%;
+    background-image: url("logo2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+    
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+.box2{
+    color: white;
+    width: 100px;
+    padding: 7px;
+    
+    align-items: center;
+}
+.deliver{
+    font-weight: 100;
+    margin-left: 15px;
+    font-size: .85rem;
+    color: #cccccc;
+    
+}
+
+.icon{
+    display: flex;
+}
+.icon p{
+    margin-left: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.searchbar{
+    display: flex;
+    height: 42px;
+    justify-content:space-evenly ;
+    width: 800px;
+    border-radius: 4px;
+}
+.searchselect{
+    background: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+
+}
+
+.searchtext{
+    width: 100%;
+    font-size: 1rem;
+    border: transparent;
+    border-color: transparent;
+    height: 100%;
+
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.searchbar:hover{
+    border: 2px solid #febd68;
+}
+
+/* box 4 */
+
+.navsignin{
+    padding: 7px;
+
+}
+span{
+   font-size: 0.7rem; 
+    padding: 7px;
+
+}
+.navsecond{
+    font-size: 0.85;
+    font-weight:700 ;
+    
+}
+
+.nav-cart{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    padding: 7px;
+
+}
+
+.nav-cart i{
+    /* display: flex; */
+    font-size: 30px;
+}
+.carttext{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.panel{
+    background: #222f3d;
+    height: 39px;
+    display: flex;
+    /* justify-content: space-between; */
+    color: white;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 7px;
+
+}
+
+.menu i{
+    margin-right: 5px;
+    margin-top: 1px;
+    
+}
+
+.paneloptions{
+    display: flex;
+    margin-left: 10px;
+    width: 90%;
+
+}
+
+.paneloptions p{
+    padding: 7px;
+    margin-left: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.paneldeal{
+    /* left: 10px; */
+    padding: 7px;
+    font-size: 0.95rem;
+}
+
+.hero{
+  background-image: url("greatindian.jpg"); 
+  height: 840px;
+  background-size: cover;
+  width: 99.5%; 
+  margin-left: 4px;
+}
+.space{
+    height: 400px;
+}
+
+.firstboxrow{
+    display: flex;
+    height: 420px;
+    width: 100%;
+    justify-content:space-evenly ;
+
+}
+.box{
+    /* height: 100%; */
+    height: 420px;
+    width: 350px;
+    background: #fff;
+}
+
+.boxtext{
+    height: 20px;
+    padding-left: 25px;
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #0f1111;
+}
+.subbox{
+    width: 150px;
+    background: #d42c2c;
+    height: 120px;
+}
+
+.subbox img{
+    height: 120px;
+    width: 150px;
+    background-size: cover;
+}
+
+.subbox p{
+    font-size: 12px;
+    color: #0f1111;
+}
+.box a{
+    padding-left: 15px;
+    position: relative;
+    bottom: 15px;
+    /* padding-bottom: 25px; */
+    font-size: 0.95rem;
+    color: #007185;
+    margin-left: px;
+    height: 100%;
+    margin-bottom:10px;   
+    text-decoration: none;
+}
+
+.subboxes{
+    height: 400px;
+    display: flex;
+    border: 2px solid transparent;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+}
+.productbox2{
+    background: #ffd77d;
+    height: 377px;
+    margin: 40px 20px;
+
+}
+.prodbox2text{
+    font-size: 1.5rem;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.prodbox2boxes{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pbox{
+    width: 350px;
+    height: 310px;
+    background: white;
+    margin: 15px;
+}
+
+.pboxphoto{
+    height: 75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.pboxphoto1{
+    background-image: url("pb21.jpg");
+}
+.pboxphoto2{
+    background-image: url("pb22.jpg");
+}
+.pboxphoto3{
+    background-image: url("pb23.jpg");
+}
+.pboxphoto4{
+    background-image: url("pb24.jpg");
+}
+.pboxphoto5{
+    background-image: url("pb25.jpg");
+}
+.pboxphoto6{
+    background-image: url("pb26.jpg");
+}
+.pboxtext{
+    margin-left: 5px;
+}
+.p2line1{
+    display: flex;
+    align-items: center;
+}
+.off{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 65px;
+    font-size: .95rem;
+    background:#cc0c39;
+    color: white;
+}
+.p2line1 p{
+    font-size: .85rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 10px;
+    color: #cc0c39;
+}
+.p2line2{
+    display: flex;
+    margin-top: 0px;
+    font-size: 1.1rem;
+}
+.p2line2 sup{
+    margin-top: 1px;
+}
+.p2l2mrp{
+    margin-top: 6px;
+    font-size: .75rem;
+    margin-left: 10px;
+    color: #565959;
+}
+
+.p2l2ogprice{
+    margin-top: 6px;
+    margin-left: 4px;
+    font-size: .75rem;
+    color: #565959;
+    text-decoration: line-through;
+}
+.p2line3{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+
+.p2boxphoto1{
+    background-image: url("pr1.jpg");
+}
+.p2boxphoto2{
+    background-image: url("pr2.jpg");
+}
+.p2boxphoto3{
+    background-image: url("pr3.jpg");
+}
+.p2boxphoto4{
+    background-image: url("pr4.jpg");
+}
+.p2boxphoto5{
+    background-image: url("pr5.jpg");
+}
+.p2boxphoto6{
+    background-image: url("pr6.jpg");
+
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background: white;
+    padding: 30px;
+}
+
+.footer{
+    background: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
